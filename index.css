@@ -11,13 +11,13 @@ body {
   justify-content: space-between;
   align-items: center;
   height: 100px;
-  padding: 25px 40px 25px 40px;
+  padding: 25px 20px 25px 20px;
 }
 header img {
-  height: 70px;
+  height: 50px;
 }
 .dash {
-  font-size: 50px;
+  font-size: 35px;
   color: grey;
 }
 
@@ -34,11 +34,11 @@ header img {
 }
 
 .main div img {
-  height: 800px;
+  height: 600px;
   position: relative;
   padding: 20px;
-  right: -370px;
-  top: -110px;
+  right: -230px;
+  top: -80px;
 }
 
 .launching {
@@ -46,26 +46,26 @@ header img {
   flex-direction: column;
   position: absolute;
   top: 80px;
-  left: 70px;
+  left: 150px;
 }
 h4 {
-  font-size: 30px;
+  font-size: 20px;
   color: rgb(255, 0, 200);
   margin: 0;
 }
 h1 {
   font-weight: bold;
-  font-size: 90px;
+  font-size: 50px;
   margin: 20px 0 0 0;
 }
 main div p {
-  font-size: 30px;
-  line-height: 45px;
+  font-size: 20px;
+  line-height: 25px;
 }
 .box {
   position: relative;
   border-radius: 50px;
-  width: 250px;
+  width: 180px;
   height: 100px;
   display: flex;
   justify-content: center;
@@ -91,10 +91,9 @@ main div p {
 
 .box a {
   color: black;
-  font-size: 35px;
+  font-size: 30px;
   text-decoration: none;
   z-index: 10;
-  font-weight: bold;
 }
 
 /* section su fonu */
@@ -104,7 +103,7 @@ main div p {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  padding: 0 5px 0 25px;
+  padding: 0 5px 0 20px;
 }
 
 section img {
@@ -137,25 +136,29 @@ section h3 {
   justify-content: center;
   align-items: center;
   justify-items: center;
-  gap: 20px;
-  padding: 100px 0 50px 20px;
+  gap: 15px;
+  padding: 100px 20px 50px 20px;
 }
 
 .main-2 img {
-  width: 250px;
+  width: 150px;
 }
 
 .main-2 img:first-child {
-  width: 260px;
-  height: 80px;
+  width: 165px;
+  height: 50px;
   object-fit: cover;
   object-position: 0;
 }
 
 /* opensea */
 
+.main-3 h1 {
+  font-size: 45px;
+}
+
 .main-3 h3 {
-  font-size: 30px;
+  font-size: 20px;
   font-weight: lighter;
   line-height: 40px;
 }
@@ -240,20 +243,16 @@ article p {
 
 /* launchin soon 2*/
 
-.main-4 {
-  margin-left: 20px;
-}
-
 .container-2 {
   position: relative;
 }
 
 .main-4 div img {
-  height: 700px;
+  height: 600px;
   position: relative;
   padding: 20px;
-  right: -430px;
-  top: 216px;
+  right: -180px;
+  top: 46px;
 }
 
 .launching-2 {
@@ -274,7 +273,7 @@ article p {
   margin: 30px 20px;
 }
 
-.flex-container-2 img {
+.flex-container-3 img {
   width: 250px;
   height: 100px;
 }
@@ -313,19 +312,18 @@ footer {
   flex-direction: column;
   width: 100vw;
   height: 100px;
-  font-size: 35px;
+  font-size: 25px;
   color: rgb(125, 125, 125);
   justify-items: center;
   align-items: flex-start;
   margin-left: 35px;
 }
-footer p {
-}
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 480px) {
   header div:last-child {
     display: none;
   }
+
   .pasleptas {
     display: none;
   }
