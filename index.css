@@ -46,7 +46,7 @@ header img {
   flex-direction: column;
   position: absolute;
   top: 80px;
-  left: 120px;
+  left: 70px;
 }
 h4 {
   font-size: 30px;
@@ -238,7 +238,11 @@ article p {
   font-size: 17px;
 }
 
-/* launchin soon */
+/* launchin soon 2*/
+
+.main-4 {
+  margin-left: 20px;
+}
 
 .container-2 {
   position: relative;
@@ -257,12 +261,12 @@ article p {
   flex-direction: column;
   position: absolute;
   top: 40px;
-  left: 120px;
+  left: 20px;
 }
 
 /* beveik footeris */
 
-.flex-container-2 {
+.flex-container-3 {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -275,7 +279,7 @@ article p {
   height: 100px;
 }
 
-.flex-container-2 p {
+.flex-container-3 p {
   margin: 10px 0;
 }
 .icon {
@@ -292,7 +296,7 @@ section:nth-child(2) img {
   width: 150px;
 }
 
-.grid-container-2 {
+.grid-container-3 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 250px 100px;
