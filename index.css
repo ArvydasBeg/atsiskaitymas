@@ -114,7 +114,7 @@ section img {
   max-width: fit-content;
 }
 
-section div {
+section span {
   position: absolute;
   top: 170px;
 }
@@ -326,5 +326,228 @@ footer {
 
   .pasleptas {
     display: none;
+  }
+  footer p:last-child {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 1025) {
+  /* Header */
+
+  .dash {
+    display: none;
+  }
+
+  .flex-container {
+    justify-content: space-between;
+  }
+
+  header div:last-child {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+  }
+
+  header div:last-child a {
+    padding-right: 20px;
+  }
+
+  header div:last-child a:last-child {
+    color: rgb(255, 0, 200);
+
+    padding-right: 0;
+  }
+
+  /* main */
+
+  .main div img {
+    height: 800px;
+
+    padding: 20px;
+  }
+
+  .launching {
+    display: flex;
+    flex-direction: column;
+    left: 20px;
+  }
+
+  /* main su gridu */
+
+  .pasleptas {
+    width: 150px;
+    height: 100%;
+  }
+
+  .main-2 img:first-child {
+    width: 165px;
+    height: 50px;
+    object-fit: cover;
+    object-position: 0;
+  }
+  footer p:last-child {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1027px) {
+  body {
+    max-width: 1650px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid rgb(241, 241, 241);
+    border-radius: 20px;
+  }
+  .dash {
+    display: none;
+  }
+
+  header div:last-child a {
+    padding-right: 40px;
+    font-size: 30px;
+  }
+
+  header div:last-child a:last-child {
+    color: rgb(255, 0, 200);
+    padding-right: 0;
+    margin-right: 50px;
+  }
+
+  /* Main  */
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+  }
+
+  .main div img {
+    width: 900px;
+    height: 800px;
+    left: 400px;
+  }
+
+  .launching {
+    display: flex;
+    flex-direction: column;
+    left: 20px;
+  }
+
+  .launching h4 {
+    font-size: 40px;
+  }
+  .launching h1 {
+    font-size: 100px;
+  }
+  /* section su foto  */
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+  }
+
+  .container img {
+    width: 90%;
+    left: 0px;
+  }
+  .container span {
+    left: 250px;
+    bottom: 100px;
+  }
+
+  /* man su grid ir imoniu logo */
+
+  .main-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 100px;
+  }
+
+  .main-2 img:first-child {
+    width: 280px;
+    height: 60px;
+  }
+
+  /* opensea */
+
+  .main-3 h3 {
+    width: 900px;
+    height: 50px;
+    font-size: 25px;
+  }
+  .main-3 h3 p {
+    margin: 0;
+    font-size: 25px;
+  }
+
+  /* launching soon 2 */
+  .main-4 {
+    display: inline;
+  }
+  .container-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .main-4 div img {
+    height: 400px;
+    top: 40px;
+  }
+
+  .launching-2 {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 40px;
+    left: 20px;
+  }
+  .none {
+    display: none;
+  }
+
+  /* beveik footeris */
+
+  .flex-container-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .grid-container-3 {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 150px;
+    gap: 30px;
+  }
+
+  .flex-container-4 div:first-child {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    align-items: flex-start;
+  }
+  .meniu {
+    width: 60%;
+  }
+
+  /* footeris */
+
+  footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  }
+  footer p:last-child {
+    padding-right: 50px;
   }
 }
