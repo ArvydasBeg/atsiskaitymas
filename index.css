@@ -1,6 +1,7 @@
 body {
   display: block;
   overflow-x: hidden;
+  font-family: "Tajawal", sans-serif;
 }
 
 /* header */
@@ -403,7 +404,9 @@ footer {
   .dash {
     display: none;
   }
-
+  header {
+    margin-bottom: 150px;
+  }
   header div:last-child a {
     padding-right: 40px;
     font-size: 30px;
