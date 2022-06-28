@@ -458,8 +458,8 @@ footer {
     left: 0px;
   }
   .container span {
-    left: 250px;
-    bottom: 100px;
+    left: 150px;
+    bottom: 20px;
   }
 
   /* man su grid ir imoniu logo */
@@ -478,6 +478,9 @@ footer {
   }
 
   /* opensea */
+  .nft-grid {
+    width: 99%;
+  }
 
   .main-3 h3 {
     width: 900px;
